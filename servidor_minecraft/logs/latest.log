@@ -1,0 +1,284 @@
+[02:48:37] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.17.2
+[02:48:40] [main/INFO]: Loading 96 mods:
+	- appleskin 3.0.7+mc1.21.9
+	- c2me 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-base 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-client-uncapvd 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-fixes-general-threading-issues 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-notickvd 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-opts-allocs 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-opts-chunkio 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-opts-dfc 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-opts-math 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-opts-scheduling 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-opts-worldgen-general 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-opts-worldgen-vanilla 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-rewrites-chunk-serializer 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-rewrites-chunk-system 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-rewrites-chunkio 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-server-utils 0.3.6+alpha.0.8+1.21.10
+	   |-- c2me-threading-lighting 0.3.6+alpha.0.8+1.21.10
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cloth-config 20.0.149
+	   \-- cloth-basic-math 0.6.1
+	- entityculling 1.9.3
+	   |-- transition 1.0.8
+	   \-- trender 1.0.8
+	- fabric-api 0.136.0+1.21.10
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
+	   |-- fabric-biome-api-v1 16.1.0+c2417d4f6f
+	   |-- fabric-block-api-v1 1.1.5+d17682156f
+	   |-- fabric-block-view-api-v2 1.0.34+e4fd1b926f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-content-registries-v0 10.2.4+b6a242646f
+	   |-- fabric-convention-tags-v1 2.1.48+7f945d5b6f
+	   |-- fabric-convention-tags-v2 2.16.0+552403eb6f
+	   |-- fabric-crash-report-info-v1 0.3.18+33df5e6e6f
+	   |-- fabric-data-attachment-api-v1 1.8.30+68e881bd6f
+	   |-- fabric-data-generation-api-v1 23.2.24+d8b85ef16f
+	   |-- fabric-dimensions-v1 4.0.22+38b9cc196f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.36+5ba217126f
+	   |-- fabric-game-rule-api-v1 1.1.1+e47eaae56f
+	   |-- fabric-item-api-v1 11.5.9+9bce411b6f
+	   |-- fabric-item-group-api-v1 4.2.25+86b3ae576f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-loot-api-v2 3.0.65+3f89f5a56f
+	   |-- fabric-loot-api-v3 2.0.12+d17682156f
+	   |-- fabric-message-api-v1 6.1.7+3154c1c86f
+	   |-- fabric-model-loading-api-v1 6.0.2+3ffd6ef06f
+	   |-- fabric-networking-api-v1 5.1.0+b095d8db6f
+	   |-- fabric-object-builder-api-v1 21.1.26+9bce411b6f
+	   |-- fabric-particles-v1 4.2.3+a0ee59a46f
+	   |-- fabric-recipe-api-v1 8.1.27+d17682156f
+	   |-- fabric-registry-sync-v0 6.1.42+679c8c5c6f
+	   |-- fabric-renderer-api-v1 7.2.0+3706cdf36f
+	   |-- fabric-renderer-indigo 4.1.1+d7df91576f
+	   |-- fabric-rendering-fluids-v1 3.1.38+86b3ae576f
+	   |-- fabric-rendering-v1 16.0.2+19a99b056f
+	   |-- fabric-resource-conditions-api-v1 5.0.28+33df5e6e6f
+	   |-- fabric-resource-loader-v0 3.2.3+3388a3b26f
+	   |-- fabric-resource-loader-v1 1.0.3+8cc86c156f
+	   |-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	   |-- fabric-screen-handler-api-v1 1.3.151+d17682156f
+	   |-- fabric-serialization-api-v1 1.0.0+d857c9766f
+	   |-- fabric-sound-api-v1 1.0.45+328a75ba6f
+	   |-- fabric-tag-api-v1 1.2.11+2fa446b26f
+	   |-- fabric-transfer-api-v1 6.0.15+79ec2c126f
+	   \-- fabric-transitive-access-wideners-v1 6.5.3+41eb43436f
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- java 21
+	- lithium 0.20.0+mc1.21.10
+	- minecraft 1.21.10
+	- modernfix 5.20.5-beta.4+mc1.21.10.0334.dirty
+	- nochatreports 1.21.10-v2.16.0
+	- scalablelux 0.1.6+fabric.c25518a
+	- skinlayers3d 1.9.2
+	- threadtweak 0.1.7+mc1.21.9
+	- vmp 0.2.0+beta.7.216+1.21.10
+	   \-- com_ibm_async_asyncutil 0.1.0
+[02:48:40] [main/WARN]: Found 1 non-fabric mod:
+	- fabric-server-mc.1.21.10-loader.0.17.3-launcher.1.1.0.jar
+[02:48:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MINECRAFT-SERVER/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:48:41] [main/INFO]: Compatibility level set to JAVA_21
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[02:48:41] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[02:48:41] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[02:48:41] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[02:48:42] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[02:48:42] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
+[02:48:42] [main/INFO]: Loaded configuration file for ModernFix 5.20.5-beta.4+mc1.21.10.0334.dirty: 59 options available, 4 override(s) found
+[02:48:42] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[02:48:42] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[02:48:42] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[02:48:42] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[02:48:42] [main/INFO]: Applying Nashorn fix
+[02:48:42] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[02:48:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[02:48:44] [main/INFO]: ThreadTweak config initialized
+[02:48:47] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[02:48:54] [main/INFO]: Vanilla bootstrap took 9470 milliseconds
+[02:48:54] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02:48:58] [main/INFO]: Loaded 1461 recipes
+[02:48:58] [main/INFO]: Loaded 1574 advancements
+[02:48:58] [main/WARN]: Initial datapack load took 3.164 s
+[02:48:58] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.519 ms
+[02:48:58] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[02:48:58] [Server thread/INFO]: Loading properties
+[02:48:58] [Server thread/INFO]: Default game type: SURVIVAL
+[02:48:58] [Server thread/INFO]: Generating keypair
+[02:48:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:48:58] [Server thread/INFO]: Using epoll channel type
+[02:48:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:48:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:48:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:48:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:48:59] [Server thread/INFO]: Preparing level "world"
+[02:48:59] [Server thread/INFO]: Enforcing safe world random access
+[02:49:00] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 510.5 ms
+[02:49:00] [Server thread/INFO]: Changing watch distance to 20
+[02:49:00] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[02:49:00] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 11.09 ms
+[02:49:00] [Server thread/INFO]: Changing watch distance to 20
+[02:49:00] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 9.331 ms
+[02:49:00] [Server thread/INFO]: Changing watch distance to 20
+[02:49:00] [Server thread/INFO]: Loading 0 persistent chunks...
+[02:49:00] [Server thread/INFO]: Preparing spawn area: 100%
+[02:49:00] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[02:49:00] [Server thread/INFO]: Time elapsed: 142 ms
+[02:49:00] [Server thread/INFO]: Done (1.657s)! For help, type "help"
+[02:49:00] [Server thread/WARN]: Dedicated server took 30.775 seconds to load
+[02:49:28] [Server thread/INFO]: P4t0_Truc0 (0f88ca37-6e33-3385-9498-fc3fc101a95d) lost connection: Disconnected
+[02:49:39] [Server thread/INFO]: P4t0_Truc0[/127.4.56.111:33167] logged in with entity id 188 at (-3023.7816382730007, 63.0, -473.4127717990652)
+[02:49:39] [Server thread/INFO]: P4t0_Truc0 joined the game
+[02:49:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
+[02:51:03] [Server thread/INFO]: Il_Duko_lI[/127.178.58.129:42419] logged in with entity id 847 at (-3054.733336949342, 63.0, -524.6962824966914)
+[02:51:03] [Server thread/INFO]: Il_Duko_lI joined the game
+[02:51:41] [Server thread/WARN]: Fetching packet for removed entity class_1420['Bat'/289, l='ServerLevel[world]', x=-3102.25, y=-16.00, z=-420.50, removed=DISCARDED]
+[02:56:38] [Server thread/INFO]: Villager class_1646['Villager'/145, l='ServerLevel[world]', x=-3026.54, y=63.00, z=-526.39] died, message: 'Villager was slain by Il_Duko_lI'
+[02:56:41] [Server thread/INFO]: Villager class_1646['Villager'/160, l='ServerLevel[world]', x=-3026.32, y=63.00, z=-526.24] died, message: 'Villager was slain by Il_Duko_lI'
+[02:56:44] [Server thread/INFO]: Villager class_1646['Villager'/218, l='ServerLevel[world]', x=-3028.21, y=64.00, z=-525.19] died, message: 'Villager was slain by Il_Duko_lI'
+[02:56:55] [Server thread/INFO]: Villager class_1646['Villager'/159, l='ServerLevel[world]', x=-3023.01, y=63.56, z=-526.19] died, message: 'Villager was slain by Il_Duko_lI'
+[02:56:58] [Server thread/INFO]: Villager class_1646['Villager'/119, l='ServerLevel[world]', x=-3021.76, y=64.00, z=-524.58] died, message: 'Villager was slain by Il_Duko_lI'
+[02:56:59] [Server thread/INFO]: Villager class_1646['Fletcher'/220, l='ServerLevel[world]', x=-3020.19, y=63.00, z=-529.77] died, message: 'Fletcher was burned to a crisp while fighting P4t0_Truc0'
+[02:57:00] [Server thread/INFO]: Villager class_1646['Villager'/224, l='ServerLevel[world]', x=-3020.89, y=63.48, z=-526.64] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:01] [Server thread/INFO]: Villager class_1646['Fletcher'/166, l='ServerLevel[world]', x=-3022.90, y=64.00, z=-524.66] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:57:02] [Server thread/INFO]: Villager class_1646['Fletcher'/170, l='ServerLevel[world]', x=-3021.09, y=64.00, z=-524.74] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:57:03] [Server thread/INFO]: Villager class_1646['Fletcher'/146, l='ServerLevel[world]', x=-3019.39, y=63.23, z=-530.60] died, message: 'Fletcher was slain by P4t0_Truc0'
+[02:57:04] [Server thread/INFO]: Villager class_1646['Villager'/162, l='ServerLevel[world]', x=-3024.01, y=64.00, z=-524.30] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:09] [Server thread/INFO]: Villager class_1646['Villager'/158, l='ServerLevel[world]', x=-3024.23, y=63.42, z=-530.70] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:10] [Server thread/INFO]: Villager class_1646['Villager'/206, l='ServerLevel[world]', x=-3016.84, y=64.00, z=-524.45] died, message: 'Villager burned to death'
+[02:57:13] [Server thread/INFO]: Villager class_1646['Fletcher'/132, l='ServerLevel[world]', x=-3023.97, y=64.00, z=-531.70] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:57:21] [Server thread/INFO]: Villager class_1646['Villager'/147, l='ServerLevel[world]', x=-3017.49, y=63.00, z=-529.37] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:22] [Server thread/INFO]: Villager class_1646['Villager'/148, l='ServerLevel[world]', x=-3028.46, y=64.00, z=-530.09] died, message: 'Villager was slain by P4t0_Truc0'
+[02:57:24] [Server thread/INFO]: Villager class_1646['Villager'/173, l='ServerLevel[world]', x=-3028.68, y=64.00, z=-525.60] died, message: 'Villager burned to death'
+[02:57:25] [Server thread/INFO]: Villager class_1646['Villager'/229, l='ServerLevel[world]', x=-3016.39, y=64.00, z=-529.75] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:25] [Server thread/INFO]: Villager class_1646['Villager'/117, l='ServerLevel[world]', x=-3027.71, y=64.00, z=-525.23] died, message: 'Villager was slain by P4t0_Truc0'
+[02:57:28] [Server thread/INFO]: Villager class_1646['Villager'/203, l='ServerLevel[world]', x=-3028.70, y=64.00, z=-528.56] died, message: 'Villager was slain by P4t0_Truc0'
+[02:57:29] [Server thread/INFO]: Villager class_1646['Fletcher'/121, l='ServerLevel[world]', x=-3017.91, y=63.00, z=-530.34] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:57:33] [Server thread/INFO]: Villager class_1646['Villager'/130, l='ServerLevel[world]', x=-3021.10, y=63.00, z=-528.21] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:34] [Server thread/INFO]: Villager class_1646['Villager'/210, l='ServerLevel[world]', x=-3028.62, y=63.00, z=-530.54] died, message: 'Villager was slain by P4t0_Truc0'
+[02:57:34] [Server thread/INFO]: Villager class_1646['Villager'/226, l='ServerLevel[world]', x=-3024.09, y=63.00, z=-528.96] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:36] [Server thread/INFO]: Villager class_1646['Villager'/221, l='ServerLevel[world]', x=-3021.62, y=63.00, z=-528.48] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:38] [Server thread/INFO]: Villager class_1646['Villager'/141, l='ServerLevel[world]', x=-3021.77, y=63.19, z=-527.31] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:39] [Server thread/INFO]: Villager class_1646['Villager'/140, l='ServerLevel[world]', x=-3022.54, y=63.19, z=-527.12] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:39] [Server thread/INFO]: Villager class_1646['Villager'/123, l='ServerLevel[world]', x=-3027.62, y=63.00, z=-525.78] died, message: 'Villager was slain by P4t0_Truc0'
+[02:57:41] [Server thread/INFO]: Villager class_1646['Fletcher'/219, l='ServerLevel[world]', x=-3025.74, y=63.00, z=-526.31] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:57:42] [Server thread/INFO]: Villager class_1646['Villager'/207, l='ServerLevel[world]', x=-3023.19, y=63.56, z=-527.63] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:43] [Server thread/INFO]: Villager class_1646['Villager'/122, l='ServerLevel[world]', x=-3017.30, y=63.42, z=-526.24] died, message: 'Villager was burned to a crisp while fighting P4t0_Truc0'
+[02:57:45] [Server thread/INFO]: Villager class_1646['Villager'/214, l='ServerLevel[world]', x=-3021.77, y=63.19, z=-527.31] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:46] [Server thread/INFO]: Villager class_1646['Villager'/161, l='ServerLevel[world]', x=-3022.54, y=63.19, z=-527.12] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:49] [Server thread/INFO]: Villager class_1646['Fletcher'/212, l='ServerLevel[world]', x=-3022.35, y=63.19, z=-527.17] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:57:49] [Server thread/INFO]: Villager class_1646['Villager'/208, l='ServerLevel[world]', x=-3019.30, y=64.00, z=-531.53] died, message: 'Villager was slain by P4t0_Truc0'
+[02:57:49] [Server thread/INFO]: Villager class_1646['Fletcher'/231, l='ServerLevel[world]', x=-3017.43, y=64.00, z=-524.91] died, message: 'Fletcher was burned to a crisp while fighting P4t0_Truc0'
+[02:57:50] [Server thread/INFO]: Villager class_1646['Fletcher'/227, l='ServerLevel[world]', x=-3019.00, y=63.00, z=-527.39] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:57:51] [Server thread/INFO]: Villager class_1646['Villager'/143, l='ServerLevel[world]', x=-3020.03, y=63.00, z=-527.11] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:53] [Server thread/INFO]: Villager class_1646['Fletcher'/150, l='ServerLevel[world]', x=-3021.38, y=63.00, z=-525.30] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:57:54] [Server thread/INFO]: Villager class_1646['Villager'/129, l='ServerLevel[world]', x=-3016.76, y=64.00, z=-528.58] died, message: 'Villager was slain by P4t0_Truc0'
+[02:57:54] [Server thread/INFO]: Villager class_1646['Villager'/215, l='ServerLevel[world]', x=-3017.55, y=63.00, z=-526.90] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:55] [Server thread/INFO]: Villager class_1646['Villager'/120, l='ServerLevel[world]', x=-3017.87, y=64.00, z=-525.41] died, message: 'Villager was slain by Il_Duko_lI'
+[02:57:55] [Server thread/INFO]: Villager class_1646['Villager'/169, l='ServerLevel[world]', x=-3016.84, y=64.00, z=-524.84] died, message: 'Villager was burned to a crisp while fighting P4t0_Truc0'
+[02:57:57] [Server thread/INFO]: Villager class_1646['Fletcher'/209, l='ServerLevel[world]', x=-3016.30, y=64.00, z=-527.95] died, message: 'Fletcher was slain by P4t0_Truc0'
+[02:57:59] [Server thread/INFO]: Villager class_1646['Fletcher'/142, l='ServerLevel[world]', x=-3016.54, y=64.00, z=-530.17] died, message: 'Fletcher was slain by P4t0_Truc0'
+[02:58:01] [Server thread/INFO]: Villager class_1646['Villager'/149, l='ServerLevel[world]', x=-3021.77, y=63.19, z=-527.31] died, message: 'Villager was slain by Il_Duko_lI'
+[02:58:01] [Server thread/INFO]: Villager class_1646['Villager'/131, l='ServerLevel[world]', x=-3022.54, y=63.19, z=-527.12] died, message: 'Villager was slain by Il_Duko_lI'
+[02:58:01] [Server thread/INFO]: Villager class_1646['Fletcher'/115, l='ServerLevel[world]', x=-3016.82, y=64.00, z=-530.34] died, message: 'Fletcher was slain by P4t0_Truc0'
+[02:58:01] [Server thread/INFO]: Villager class_1646['Fletcher'/217, l='ServerLevel[world]', x=-3016.30, y=63.97, z=-531.34] died, message: 'Fletcher was slain by P4t0_Truc0'
+[02:58:04] [Server thread/INFO]: Villager class_1646['Villager'/118, l='ServerLevel[world]', x=-3023.45, y=63.00, z=-525.92] died, message: 'Villager was slain by Il_Duko_lI'
+[02:58:04] [Server thread/INFO]: Villager class_1646['Villager'/168, l='ServerLevel[world]', x=-3022.35, y=63.19, z=-527.17] died, message: 'Villager was slain by Il_Duko_lI'
+[02:58:05] [Server thread/INFO]: Villager class_1646['Villager'/127, l='ServerLevel[world]', x=-3017.11, y=64.00, z=-527.32] died, message: 'Villager was slain by P4t0_Truc0'
+[02:58:05] [Server thread/INFO]: Villager class_1646['Fletcher'/223, l='ServerLevel[world]', x=-3024.21, y=63.00, z=-525.78] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:58:06] [Server thread/INFO]: Villager class_1646['Villager'/155, l='ServerLevel[world]', x=-3016.64, y=64.00, z=-527.32] died, message: 'Villager was slain by P4t0_Truc0'
+[02:58:07] [Server thread/INFO]: Villager class_1646['Fletcher'/154, l='ServerLevel[world]', x=-3025.22, y=63.00, z=-526.17] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:58:07] [Server thread/INFO]: Villager class_1646['Fletcher'/213, l='ServerLevel[world]', x=-3016.46, y=64.00, z=-528.15] died, message: 'Fletcher was slain by P4t0_Truc0'
+[02:58:09] [Server thread/INFO]: Villager class_1646['Villager'/211, l='ServerLevel[world]', x=-3027.14, y=63.00, z=-528.27] died, message: 'Villager was slain by Il_Duko_lI'
+[02:58:10] [Server thread/INFO]: Villager class_1646['Fletcher'/114, l='ServerLevel[world]', x=-3028.10, y=64.00, z=-525.57] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:58:10] [Server thread/INFO]: Villager class_1646['Villager'/151, l='ServerLevel[world]', x=-3018.60, y=64.00, z=-524.58] died, message: 'Villager was slain by P4t0_Truc0'
+[02:58:11] [Server thread/INFO]: Villager class_1646['Villager'/167, l='ServerLevel[world]', x=-3026.85, y=64.00, z=-524.64] died, message: 'Villager was slain by Il_Duko_lI'
+[02:58:12] [Server thread/INFO]: Villager class_1646['Fletcher'/172, l='ServerLevel[world]', x=-3026.07, y=64.00, z=-524.78] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:58:14] [Server thread/INFO]: Villager class_1646['Fletcher'/128, l='ServerLevel[world]', x=-3027.39, y=64.00, z=-524.30] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:58:22] [Server thread/INFO]: Villager class_1646['Fletcher'/156, l='ServerLevel[world]', x=-3016.30, y=63.00, z=-524.30] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:58:22] [Server thread/INFO]: Villager class_1646['Villager'/133, l='ServerLevel[world]', x=-3027.69, y=63.13, z=-526.45] died, message: 'Villager was slain by P4t0_Truc0'
+[02:58:24] [Server thread/INFO]: Villager class_1646['Fletcher'/126, l='ServerLevel[world]', x=-3028.00, y=64.00, z=-525.71] died, message: 'Fletcher was slain by P4t0_Truc0'
+[02:58:24] [Server thread/INFO]: Villager class_1646['Villager'/116, l='ServerLevel[world]', x=-3026.86, y=64.00, z=-524.87] died, message: 'Villager was slain by P4t0_Truc0'
+[02:58:24] [Server thread/INFO]: Villager class_1646['Fletcher'/216, l='ServerLevel[world]', x=-3016.86, y=64.00, z=-526.58] died, message: 'Fletcher was slain by Il_Duko_lI'
+[02:58:27] [Server thread/INFO]: Villager class_1646['Fletcher'/165, l='ServerLevel[world]', x=-3028.09, y=64.00, z=-525.31] died, message: 'Fletcher was slain by P4t0_Truc0'
+[02:58:27] [Server thread/INFO]: Villager class_1646['Villager'/157, l='ServerLevel[world]', x=-3028.09, y=63.00, z=-530.95] died, message: 'Villager was burned to a crisp while fighting P4t0_Truc0'
+[02:58:27] [Server thread/INFO]: Villager class_1646['Fletcher'/125, l='ServerLevel[world]', x=-3027.49, y=63.00, z=-526.49] died, message: 'Fletcher was burned to a crisp while fighting P4t0_Truc0'
+[02:58:30] [Server thread/INFO]: Villager class_1646['Fletcher'/171, l='ServerLevel[world]', x=-3016.93, y=64.00, z=-525.27] died, message: 'Fletcher was burned to a crisp while fighting P4t0_Truc0'
+[03:00:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2961, y=62, z=-475} class_2338{x=-2961, y=62, z=-474}
+[03:00:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2961, y=62, z=-475} class_2338{x=-2961, y=62, z=-474}
+[03:05:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3022, y=63, z=-480} class_2338{x=-3021, y=63, z=-480}
+[03:13:19] [Server thread/INFO]: Il_Duko_lI lost connection: Disconnected
+[03:13:19] [Server thread/INFO]: Il_Duko_lI left the game
+[03:14:02] [Server thread/INFO]: Il_Duko_lI[/127.178.58.129:40731] logged in with entity id 6980 at (-2973.7569242357717, 63.0, -491.86045067608967)
+[03:14:02] [Server thread/INFO]: Il_Duko_lI joined the game
+[03:14:13] [Server thread/WARN]: Fetching packet for removed entity class_1420['Bat'/6666, l='ServerLevel[world]', x=-3032.75, y=20.10, z=-372.25, removed=DISCARDED]
+[03:14:18] [Server thread/INFO]: P4t0_Truc0 was slain by Zombie
+[03:14:34] [Server thread/INFO]: P4t0_Truc0 lost connection: Disconnected
+[03:14:34] [Server thread/INFO]: P4t0_Truc0 left the game
+[03:15:28] [Server thread/INFO]: P4t0_Truc0[/127.4.56.111:57877] logged in with entity id 7334 at (-3080.762499988079, 65.0, -446.2523884590558)
+[03:15:28] [Server thread/INFO]: P4t0_Truc0 joined the game
+[03:18:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3039, y=70, z=-443} class_2338{x=-3039, y=70, z=-442}
+[03:18:30] [Server thread/WARN]: Rejecting UseItemOnPacket from Il_Duko_lI: Location (-3038.4793888926506, 70.8125, -441.53307843208313) too far away from hit block class_2338{x=-3039, y=69, z=-442}.
+[03:23:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3138, y=67, z=-429} class_2338{x=-3139, y=67, z=-429}
+[03:23:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3138, y=67, z=-429} class_2338{x=-3139, y=67, z=-430}
+[03:25:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3096, y=66, z=-393} class_2338{x=-3097, y=66, z=-392}
+[03:25:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3096, y=66, z=-393} class_2338{x=-3097, y=66, z=-392}
+[03:26:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3121, y=64, z=-471} class_2338{x=-3122, y=64, z=-471}
+[03:26:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3131, y=65, z=-469} class_2338{x=-3103, y=64, z=-471}
+[03:55:42] [Server thread/WARN]: Fetching packet for removed entity class_1613['Skeleton'/22845, l='ServerLevel[world]', x=-3067.73, y=31.00, z=-416.58, removed=DISCARDED]
+[04:00:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2977, y=65, z=-504} class_2338{x=-3038, y=70, z=-442}
+[04:05:37] [Server thread/WARN]: Fetching packet for removed entity class_1462['Salmon'/28686, l='ServerLevel[world]', x=-3047.11, y=60.52, z=-540.53, removed=DISCARDED]
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3091, y=65, z=-458} class_2338{x=-3092, y=65, z=-458}
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3091, y=65, z=-458} class_2338{x=-3091, y=65, z=-459}
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3091, y=65, z=-458} class_2338{x=-3091, y=65, z=-459}
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3091, y=65, z=-458} class_2338{x=-3091, y=65, z=-459}
+[04:07:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3091, y=65, z=-458} class_2338{x=-3091, y=65, z=-459}
+[04:12:16] [Server thread/WARN]: Fetching packet for removed entity class_1613['Skeleton'/31092, l='ServerLevel[world]', x=-3062.62, y=35.00, z=-436.23, removed=DISCARDED]
+[04:14:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2997, y=62, z=-551} class_2338{x=-2998, y=65, z=-604}
+[04:15:40] [Server thread/WARN]: Fetching packet for removed entity class_1420['Bat'/32436, l='ServerLevel[world]', x=-3042.27, y=-43.29, z=-598.43, removed=DISCARDED]
